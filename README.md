@@ -11,6 +11,7 @@ Just import 'index.styl' in your stylus file.
 @import 'compact-stylus'
 
 .without_meaning
+  wid 100% max 50
   mar x aut t 5
   pos rel t 1 z 2
   txt siz 16 fnt 'OpenSans' wei 9 ali cen clr black
@@ -20,6 +21,8 @@ Just import 'index.styl' in your stylus file.
 ->
 ~~~css
 .without_meaning {
+  width: 100%;
+  max-width: 50px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
