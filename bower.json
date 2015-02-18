@@ -1,0 +1,22 @@
+{
+  "name": "compact-stylus",
+  "version": "0.0.1",
+  "authors": [
+    "Dmitry Maganov <vonagam@gmail.com>"
+  ],
+  "description": "Super comact CSS using Stylus",
+  "main": "index.styl",
+  "keywords": [
+    "stulys",
+    "css"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/vonagam/compact-stylus",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
