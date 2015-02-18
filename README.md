@@ -31,6 +31,7 @@ Just import 'index.styl' in your stylus file.
   z-index: 2;
   font-size: 12px;
   font-family: 'OpenSans';
+  font-weight: 900;
   text-align: center;
   color: black;
   transition: opacity 1s ease-in-out 3s;
