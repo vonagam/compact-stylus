@@ -1,0 +1,11 @@
+.including_units {
+  background: 3px;
+  flex: 3;
+  transition: 3s;
+}
+.including_values {
+  background-attachment: scroll;
+  background-size: cover;
+  background: scroll;
+  background: cvr;
+}

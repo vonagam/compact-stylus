@@ -1,0 +1,7 @@
+.border {
+  border-width: 2px;
+  border-color: transparent;
+  border-style: solid;
+  border-top-width: 1px;
+  border-top-color: #000;
+}

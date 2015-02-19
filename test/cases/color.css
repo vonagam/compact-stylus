@@ -1,0 +1,8 @@
+.color {
+  color: rgba(128,128,128,0);
+  color: rgba(128,128,128,0.2);
+  color: rgba(191,64,64,0);
+  color: rgba(191,64,64,0.4);
+  color: #050505;
+  color: initial;
+}

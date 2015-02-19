@@ -1,0 +1,4 @@
+.transition {
+  transition-property: color;
+  transition: color 5s;
+}

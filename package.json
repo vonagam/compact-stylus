@@ -1,0 +1,29 @@
+{
+  "name": "compact-stylus",
+  "version": "0.0.1",
+  "description": "Super comact CSS using Stylus",
+  "main": "lib/js/plugin.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vonagam/compact-stylus.git"
+  },
+  "keywords": [
+    "stylus"
+  ],
+  "author": "Dmitry Maganov <vonagam@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vonagam/compact-stylus/issues"
+  },
+  "homepage": "https://github.com/vonagam/compact-stylus",
+  "devDependencies": {
+    "chai": "~2.0.0",
+    "mocha": "~2.1.0"
+  },
+  "dependencies": {
+    "stylus": "~0.50.0"
+  }
+}
