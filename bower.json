@@ -5,7 +5,6 @@
     "Dmitry Maganov <vonagam@gmail.com>"
   ],
   "description": "Super comact CSS using Stylus",
-  "main": "index.styl",
   "keywords": [
     "stulys",
     "css"
