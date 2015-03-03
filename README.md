@@ -4,7 +4,7 @@
 
 Just import 'index.styl' in your stylus file.
 
-## Usage
+## Example
 
 <-
 ~~~stylus
@@ -38,4 +38,32 @@ Just import 'index.styl' in your stylus file.
 }
 ~~~
 
-For a full dictionary, for now, see 'lib/js/dictionaries/properties.js' 
+## Usage
+
+Let's say we want to say 'background-size: cover;'.  
+For this we see the dictionary 'lib/js/dictionaries/compact.js'.  
+We find that 'background-size' is associated with 'size' property in 'background'.  
+It's not always so straightforward, for example,  
+'font-size' is 'size' in 'text' or 'order' is 'order' in 'flex'.  
+We apply the abbreviation rule described below to 'background', 'size' and 'cover'.  
+And then by combining results we get 'bac siz cvr'.  
+
+Let's do it again for 'color: inherited;'.  
+'color' is 'color' in 'text', so we get 'text', 'color', 'inherited'.  
+The result is 'txt clr inh'.  
+
+### The Abbreviation Rule
+
+Implementation is in 'lib/js/init/minify.js'.  
+
+If string has length <= 3, then string won't need abbreviation.  
+If string has the hyphen sign ('-') in it, then split the string by '-' and apply this rule to parts.  
+If string has only 2 consonants except for a first letter,  
+then the result will be the first letter and those two consonants,  
+otherwise it will be first 3 letters.  
+
+Examples:  
+top -> top  
+size -> siz  
+font -> fnt  
+display-block -> dis-blo  
