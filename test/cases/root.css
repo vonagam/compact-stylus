@@ -1,5 +1,6 @@
 .root {
   background: 1px;
   background-color: transparent;
+  background-repeat: repeat;
   background-size: contain;
 }

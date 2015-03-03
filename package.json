@@ -1,6 +1,6 @@
 {
   "name": "compact-stylus",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Super comact CSS using Stylus",
   "main": "lib/js/plugin.js",
   "scripts": {
