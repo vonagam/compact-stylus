@@ -2,6 +2,7 @@
   background: 3px;
   flex: 3;
   transition: 3s;
+  animation: 3s;
 }
 .including_values {
   background-attachment: scroll;
