@@ -1,0 +1,6 @@
+.property {
+  content: 'content';
+  content: 1;
+  content: inherit;
+  animation-name: animation_name;
+}
