@@ -4,6 +4,7 @@
   "authors": [
     "Dmitry Maganov <vonagam@gmail.com>"
   ],
+  "main": "lib/index.styl",
   "description": "Super comact CSS using Stylus",
   "keywords": [
     "stulys",
